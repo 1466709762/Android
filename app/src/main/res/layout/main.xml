@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/beijin1">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@drawable/beijin2" />
+
+<LinearLayout
+    android:layout_marginTop="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    android:orientation="vertical">
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchview"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:id="@+id/listview">
+
+    </ListView>
+
+</LinearLayout>
+
+
+
+
+    <LinearLayout
+
+        android:id="@+id/l2"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        >
+
+        <ImageButton
+            android:id="@+id/button_main"
+            android:layout_width="0dp"
+            android:layout_height="69dp"
+            android:layout_below="@+id/l1"
+            android:layout_weight="1"
+            android:src="@drawable/main" />
+
+        <ImageButton
+            android:id="@+id/button_tong"
+            android:layout_width="0dp"
+            android:layout_height="69dp"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:src="@drawable/mian22"
+            android:text="通讯录" />
+
+        <ImageButton
+            android:id="@+id/btton_find"
+            android:layout_width="0dp"
+            android:layout_height="69dp"
+            android:layout_weight="1"
+            android:src="@drawable/main3"
+            android:text="发现"
+            android:layout_gravity="bottom"/>
+
+        <ImageButton
+            android:id="@+id/my"
+            android:layout_width="0dp"
+            android:layout_height="69dp"
+            android:layout_weight="1"
+            android:src="@drawable/main4"
+            android:text="我"
+            android:layout_gravity="bottom"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

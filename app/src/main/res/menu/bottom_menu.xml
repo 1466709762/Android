@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/wechat"
+    android:icon="@drawable/wechat"
+    android:title=""/>
+    <item
+        android:id="@+id/lianxi"
+        android:icon="@drawable/lianxi"
+        android:title="联系人"
+        />
+    <item
+        android:id="@+id/pengyouquan"
+        android:icon="@drawable/pengyouquan"
+        android:title="朋友圈"
+        />
+    <item
+        android:id="@+id/mydata"
+        android:icon="@drawable/my"
+        android:title="我"/>
+
+</menu>

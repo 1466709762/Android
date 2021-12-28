@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mydataActivity">
+
+
+
+    <RelativeLayout
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:paddingTop="20dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/my_touxiang"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp" />
+
+        <TextView
+            android:id="@+id/my_name"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="160dp"
+            android:text="mingzi"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/my_number"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="60dp"
+            android:text="number"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="49dp"
+        android:background="#BCD0E1"/>
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_marginTop="0.2dp"
+        android:background="#ffffffff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/zhifu"
+            />
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:text="支付"
+            android:gravity="center"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:background="#BCD0E1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#BCD0E1"/>
+    <LinearLayout
+        android:id="@+id/shoucang"
+        android:layout_marginTop="0.2dp"
+        android:background="#ffffffff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/shoucang"
+            />
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:text="收藏"
+            android:gravity="center"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:background="#BCD0E1"/>
+
+    <LinearLayout
+        android:id="@+id/pengyouquan"
+        android:layout_marginTop="0.2dp"
+        android:background="#ffffffff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/pengyouquan"
+            />
+
+        <TextView
+            android:layout_width="76dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:gravity="center"
+            android:text="朋友圈"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:background="#BCD0E1"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/kabao"
+        android:layout_marginTop="0.2dp"
+        android:background="#ffffffff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/kabao"
+            />
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:text="卡包"
+            android:gravity="center"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:background="#BCD0E1"/>
+
+
+    <LinearLayout
+        android:id="@+id/biapqing"
+        android:layout_marginTop="0.2dp"
+        android:background="#ffffffff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/biaoqing"
+            />
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="5dp"
+            android:text="表情"
+            android:gravity="center"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:background="#BCD0E1"/>
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="horizontal"
+     >
+     <com.google.android.material.bottomnavigation.BottomNavigationView
+
+         android:id="@+id/bottomNa"
+         android:layout_width="match_parent"
+         android:layout_height="69dp"
+         android:layout_gravity="bottom"
+         android:orientation="horizontal"
+         android:gravity="bottom"
+         android:layout_alignParentBottom="true"
+         app:menu="@menu/bottom_menu"
+         />
+ </LinearLayout>
+
+
+
+</LinearLayout>
